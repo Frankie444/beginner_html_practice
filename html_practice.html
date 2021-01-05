@@ -1,104 +1,111 @@
-
 <!DOCTYPE HTML>
 <html>
-  <head></head>
-  <body>
+
+<head></head>
+
+<body>
   <section id="top">
-  <header>
-    <h1>Welcome to my mega basic HTML page!</h1>
-      <img src="https://cdn.pixabay.com/photo/2018/08/12/13/54/code-3600810_1280.png" width="320" height="240" alt="Monitor showing HTML code">
-  </header>
+    <header>
+      <h1>Welcome to my mega basic HTML page!</h1>
+      <img src="https://cdn.pixabay.com/photo/2018/08/12/13/54/code-3600810_1280.png" width="320" height="240"
+        alt="Monitor showing HTML code">
+    </header>
   </section>
-    <h2>This page will cover a few of the things I've been learning on my break, such as:</h2>
-      <nav>
-        <ul>
-          <li>Elements and structures</li>
-          <li>Tables</li>
-          <li>Forms</li>
-          <li>Semantic html</li>
-        </ul>
-      </nav>
-  
+  <h2>This page will cover a few of the things I've been learning on my break, such as:</h2>
+  <nav>
+    <ol>
+      <li>Elements and structures</li>
+      <li>Tables</li>
+      <li>Forms</li>
+      <li>Semantic html</li>
+    </ol>
+  </nav>
+
   <main>
     <form>
-     <h3>What's your current level of interest to learn HTML?</h3>
-      <label for="interest">Level of Interest:   </label><span>0</span>
-         <input id="interest" name="interest" type="range" min="0" max="10" step="1"><span>10</span>
-          
-    <section id="main">
-     <h1>Please let us know a few quick details!
-     <br>
-     <br>
-    <!--Add your form below:-->
-     
-     <label for="first-name">First name:</label>
-     <br>
-      <input id="first-name" name="first-name" type="text" required="">
-     <br>
-     <br>
-      <label for="num-1">How many weeks have you been coding?</label>
-     <br>
-      <input id="num-1" name="num-1" type="number" min="1" max="12" required="">
-     <br>
-     <br>
-      <label for="training-institute">Which institute are you training with?</label>
-      <input id="training-institute" name="training-institute" type="text" list="institute" required="">
-        <datalist id="institute">
-          <option value="Generation AU"></option>
-          <option value="Monash Uni Boot Camp"></option>
-          <option value="Udemy"></option>
-          <option value="RMIT"></option>
-        </datalist>
-     <br>
-     <br>
-     <span>Do you have any prior HMTL coding expereince?</span>
-    <input id="yes" name="answer" type="radio" value="yes" required="">
-    <label for="yes">Yes</label>
-    <input id="no" name="answer" type="radio" value="no">
-    <label for="no">No</label>
-    <br>
-    <br>
-    <label for="quote">Which best describes your attitude to HTML?</label>
-    <input id="quote" name="quote" type="text" list="quote-choices" required="">
-    <datalist id="quote-choices">
-      <option value="Bring it on - I'm excited!"></option>
-      <option value="I'm really interested and hope I grasp it easily"></option>
-      <option value="I'm worried there aren't enough hours in the day"></option>
-      <option value="Help, I'm drowning!"></option>
-    </datalist>
-  <br>
-  <br>
-   <labe for="appeal?">Which aspects of HTML appeals to you most?
-      <select name="Topic">
-        <option value="elements_and_structures">Elements and Structures</option>
-        <option value="tables">Tables</option>
-        <option value="forms">Forms</option>
-        <option value="semantic">Semantic html</option>
-      </select>
-    <p>Have you previously studied any of the following:</p>
-      <label for="command-line">Command Line</label>
-        <input id="command-line" name="studies" type="checkbox" value="command-line">
-    <br>
-      <label for="git">Git</label>
-        <input id="git" name="studies" type="checkbox" value="git">
-    <br>
-      <label for="github">Git Hub</label>
-        <input id="github" name="studies" type="checkbox" value="github">
-  <br>
-      <label for="scrum">SCRUM</label>
-        <input id="scrum" name="studies" type="checkbox" value="scrum">
-  <br>
-  <br>
-      <label for="extra-info">Any extra information you'd like to share?</label>
-    <br>
-    <br>
-    <textarea id="extra-info" name="extra-info" rows="10" cols="70" minlength="5" maxlength="200" placeholder="Feel free to share your thoughts here...."></textarea>
-    <br>
-    <br>
-    <input type="submit" value="Send!">
-    
-  </labe></h1></section></form>
- </main>
+      <h3>What's your current level of interest to learn HTML?</h3>
+      <label for="interest">Level of Interest: </label><span>0</span>
+      <input id="interest" name="interest" type="range" min="0" max="10" step="1"><span>10</span>
+
+      <section id="main">
+        <h1>Please let us know a few quick details!
+          <br>
+          <br>
+          <!--Add your form below:-->
+
+          <label for="first-name">First name:</label>
+          <br>
+          <input id="first-name" name="first-name" type="text" required="">
+          <br>
+          <br>
+          <label for="num-1">How many weeks have you been coding?</label>
+          <br>
+          <input id="num-1" name="num-1" type="number" min="1" max="12" required="">
+          <br>
+          <br>
+          <label for="training-institute">Which institute are you training with?</label>
+          <input id="training-institute" name="training-institute" type="text" list="institute" required="">
+          <datalist id="institute">
+            <option value="Generation AU"></option>
+            <option value="Monash Uni Boot Camp"></option>
+            <option value="Udemy"></option>
+            <option value="RMIT"></option>
+          </datalist>
+          <br>
+          <br>
+          <span>Do you have any prior HMTL coding expereince?</span>
+          <input id="yes" name="answer" type="radio" value="yes" required="">
+          <label for="yes">Yes</label>
+          <input id="no" name="answer" type="radio" value="no">
+          <label for="no">No</label>
+          <br>
+          <br>
+          <label for="quote">Which best describes your attitude to HTML?</label>
+          <input id="quote" name="quote" type="text" list="quote-choices" required="">
+          <datalist id="quote-choices">
+            <option value="Bring it on - I'm excited!"></option>
+            <option value="I'm really interested and hope I grasp it easily"></option>
+            <option value="I'm worried there aren't enough hours in the day"></option>
+            <option value="Help, I'm drowning!"></option>
+          </datalist>
+          <br>
+          <br>
+          <labe for="appeal?">Which aspects of HTML appeals to you most?
+            <select name="Topic">
+              <option value="elements_and_structures">Elements and Structures</option>
+              <option value="tables">Tables</option>
+              <option value="forms">Forms</option>
+              <option value="semantic">Semantic html</option>
+            </select>
+            <p>Have you previously studied any of the following:</p>
+            <label for="command-line">Command Line</label>
+            <input id="command-line" name="studies" type="checkbox" value="command-line">
+            <br>
+            <label for="git">Git</label>
+            <input id="git" name="studies" type="checkbox" value="git">
+            <br>
+            <label for="github">Git Hub</label>
+            <input id="github" name="studies" type="checkbox" value="github">
+            <br>
+            <label for="scrum">SCRUM</label>
+            <input id="scrum" name="studies" type="checkbox" value="scrum">
+            <br>
+            <br>
+            <label for="extra-info">Any extra information you'd like to share?</label>
+            <br>
+            <br>
+            <textarea id="extra-info" name="extra-info" rows="10" cols="70" minlength="5" maxlength="200"
+              placeholder="Feel free to share your thoughts here...."></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send!">
+
+          </labe>
+        </h1>
+      </section>
+    </form>
+  </main>
 
 </body>
+
 </html>
