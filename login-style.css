@@ -1,7 +1,7 @@
 /*CSS File For Login-In webpage*/ 
-#body-color{ 
+/* #body-color{ 
     background-color:aqua; 
-} 
+}  */
 #log-In{
      /* margin-top:250px; 
      margin-bottom:250px;  */
@@ -9,7 +9,7 @@
      margin-left:550px; 
      border:3px solid #a1a1a1; 
      padding:9px 35px; 
-     background:#8000CC; 
+     background: gray; 
      width:400px;
       border-radius:20px;
        box-shadow: 7px 7px 6px;
@@ -18,7 +18,7 @@
 #button
 { 
     border-radius:10px;  
-    background:#FF00FF; 
+    background:aquamarine; 
     font-weight:bold; 
     font-size:20px;
     margin-top: 20px; 
@@ -29,4 +29,11 @@
 }
 #header{
     text-align: center;
+}
+input{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+label{
+    font-size: x-large;
 }
